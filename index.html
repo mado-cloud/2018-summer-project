@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>&& ||</title>
+    <title>夏のプログラムについて</title>
     <meta name="viewport" content="width=device-width">
     <style>
         body {
             background-color: #bbb;
             font-family: "Segoe UI", Arial, sans-serif;
-            font-size: 1.3rem;
+            word-break: break-all;
         }
         
         .flex {
@@ -38,6 +38,11 @@
             color: #111;
             border-bottom: solid;
             border-width: thin;
+            margin-top: 3em;
+        }
+        
+        h1 {
+            font-weight: normal;
         }
         
         h4 {
@@ -55,17 +60,22 @@
             content: '-';
             margin-right: 1em;
         }
+        
+        .canp-site>div>div {
+            margin-left: 1em;
+        }
+        
+        ul {
+            position: relative;
+            left: -2em;
+        }
     </style>
 </head>
 
 <body>
+    <h1>夏のプログラムについて</h1>
     <div class="outer">
         <div>
-            <div>
-                <ul>
-                    <li>キャンプ場は確定ではありません。</li>
-                </ul>
-            </div>
             <div class="time-line content">
                 <h3>行程</h3>
                 <div class="flex">
@@ -84,9 +94,7 @@
                                 <div class="time">18:10</div>
                                 <div>月山キャンプ場到着</div>
                             </div>
-                            <div class="notime">
-                                設営、夕飯
-                            </div>
+                            <div class="notime">設営、夕飯</div>
                             <div>
                                 <div class="time">18:54</div>
                                 <div>日の入り</div>
@@ -108,23 +116,29 @@
                             </div>
                             <div>
                                 <div class="time">6:00</div>
-                                <div>山本公園（奥久慈県立自然公園）</div>
+                                <div>山本公園（キャンプ場）到着</div>
                             </div>
                         </div>
                     </div>
-
                 </div>
 
             </div>
             <div class="canp-site content">
                 <h3>宿泊地について</h3>
+                <div>
+                    <h4>月山キャンプ場</h4>
+                    <div>前沢から徒歩1時間25分</div>
+                    <div>無料</div>
+                    <div style="color: red;">飲用水なし</div>
+                    <div>"webサイト ->"<a href="http://www.city.oshu.iwate.jp/keitai-kanko/view.rbz?nd=398&ik=1&pnp=397&pnp=398&cd=1501">http://www.city.oshu.iwate.jp/keitai-kanko/view.rbz?nd=398&ik=1&pnp=397&pnp=398&cd=1501</a>"（岩手県奥州市の携帯サイト。PCサイトは見つけられなかった。）"</div>
+                </div>
+
+                <h4>山本公園（奥久慈県立自然公園）</h4>
                 <div class="flex">
                     <div>
                         <div>未記入</div>
                     </div>
                 </div>
-
-
             </div>
             <div class="content">
                 <h3>TODO</h3>
@@ -134,6 +148,17 @@
                             <li>キャンプ場の確定</li>
                             <li>行く場所を決める</li>
                             <li>夕飯を決める</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>その他</h3>
+                <div class="flex">
+                    <div>
+                        <ul>
+                            <li>キャンプ場は確定ではありません。候補は絞ってありますが、他の人の意見も聞きたいと思っています。</li>
                         </ul>
                     </div>
 
