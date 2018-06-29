@@ -18,8 +18,14 @@
             align-items: center;
         }
         
-        .time {
+        .time-line .time {
             margin-right: 3rem;
+            width: 5em;
+            text-align: right;
+        }
+        
+        .time {
+            font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
         }
         
         .notime {
@@ -77,39 +83,46 @@
 </head>
 
 <body>
-    <h1>夏のプログラムについて</h1>
+    <h1>夏のプログラムについて（未完成）</h1>
     <div class="outer">
         <div>
             <div class="time-line content">
                 <h3>行程</h3>
                 <div class="flex">
                     <div>
-                        <div class="day-1">
+                        <div>
                             <h4>一日目</h4>
                             <div>
-                                <div class="time">07:07</div>
-                                <div>高尾</div>
+                                <div class="time">7:07</div>
+                                <div>集合　西八王子駅改札前</div>
+                            </div>
+                            <div>
+                                <div class="time">...</div>
+                                <div style="display:inline">電車移動。車内で昼食　<a href="https://yahoo.jp/Lp-cmj">経路（Yahoo!路線情報）</a></div>
                             </div>
                             <div>
                                 <div class="time">16:44</div>
-                                <div>前沢</div>
+                                <div>前沢駅着</div>
+                            </div>
+                            <div>
+                                <div class="time">...</div>
+                                <div>徒歩移動</div>
                             </div>
                             <div>
                                 <div class="time">18:10</div>
                                 <div>月山キャンプ場到着</div>
                             </div>
-                            <div class="notime">設営、夕飯</div>
                             <div>
-                                <div class="time">18:54</div>
-                                <div>日の入り</div>
+                                <div class="time">--:--</div>
+                                <div>設営、夕飯</div>
+                            </div>
+                            <div>
+                                <div class="time">--:--</div>
+                                <div>消灯</div>
                             </div>
                         </div>
-                        <div class="day-2">
+                        <div>
                             <h4>二日目</h4>
-                            <div>
-                                <div class="time">4:32</div>
-                                <div>日の出</div>
-                            </div>
                             <div>
                                 <div class="time">6:00</div>
                                 <div>起床</div>
@@ -119,8 +132,27 @@
                                 <div>月山キャンプ場出発</div>
                             </div>
                             <div>
-                                <div class="time">6:00</div>
+                                <div class="time">--:--</div>
+                                <div>未定</div>
+                            </div>
+                            <div>
+                                <div class="time">18:00</div>
                                 <div>山本公園（キャンプ場）到着</div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4>三日目</h4>
+                            <div>
+                                <div class="time">6:00</div>
+                                <div>起床</div>
+                            </div>
+                            <div>
+                                <div class="time">7:30</div>
+                                <div>月山キャンプ場出発</div>
+                            </div>
+                            <div>
+                                <div class="time">18:00</div>
+                                <div>西八王子駅解散</div>
                             </div>
                         </div>
                     </div>
@@ -138,24 +170,35 @@
 
             </div>
             <div class="content">
+                <h3>持ち物</h3>
+                <div class="flex">
+                    <div>追記します。</div>
+                </div>
+            </div>
+            <div class="content">
                 <h3>TODO</h3>
                 <div class="flex">
                     <div>
                         <ul>
-                            <li>キャンプ場の確定</li>
+                            <li>このプログラムの目的</li>
+                            <li>キャンプ場の確定、予約</li>
                             <li>行く場所を決める</li>
+                            <li>持ち物を追記する</li>
                             <li>夕飯を決める</li>
+                            <li>など</li>
                         </ul>
                     </div>
 
                 </div>
             </div>
             <div class="content">
-                <h3>その他</h3>
+                <h3>その他、参考</h3>
                 <div class="flex">
                     <div>
                         <ul>
-                            <li>これは計画書ではありません。</li>
+                            <li>月山キャンプ場を使う場合、飲用水がないので持参します。</li>
+                            <li>これは計画書ではありません。これをもとに作ります。</li>
+                            <li>この時期の日の出は4:30ごろ、日の入りは19:00ごろだそうです。</li>
                         </ul>
                     </div>
 
@@ -163,6 +206,8 @@
             </div>
         </div>
     </div>
+
+    <footer class="time">18/06/29/19</footer>
 </body>
 
 </html>
